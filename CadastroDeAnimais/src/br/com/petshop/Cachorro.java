@@ -14,6 +14,7 @@ public class Cachorro extends Animal {
 	}
 
 	public void exibirInfo() {
+		System.out.println("Cachorros:\n");
 		super.exibirInfo();
 		System.out.println("Raça: " + raca);
 

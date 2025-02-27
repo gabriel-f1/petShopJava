@@ -47,6 +47,7 @@ public class PetShop {
 				System.out.println("\n=== Lista de Animais==-");
 				for(Animal animal: animais) {
 					animal.exibirInfo();
+					System.out.println();
 				}
 				break;
 			case 4:

@@ -13,6 +13,7 @@ public class Gato extends Animal{
 	}
 	
 	public void exibirInfo() {
+		System.out.println("Gatos:\n");
 		super.exibirInfo();
 		System.out.println("Cor do pelo: " + corPelo);
 	}
